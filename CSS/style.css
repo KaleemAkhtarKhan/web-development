@@ -1,0 +1,14 @@
+h1 {
+    color: blue; 
+    background-color: black;
+ }
+ p{
+     color: rgb(227, 139, 22);
+     background-color: brown;
+ }
+button{
+    color:rgba(255, 0, 55, 0.397);
+    background-color: antiquewhite;
+    
+
+}

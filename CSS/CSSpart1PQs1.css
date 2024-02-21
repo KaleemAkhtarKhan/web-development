@@ -1,0 +1,32 @@
+p{
+  color: #a52a2a;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
+
+}
+h1{
+    text-align: center;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: rgb(0, 128, 0);
+    text-decoration: none;
+    
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+textarea{
+    color: #000000ed;
+}
+span{
+    text-decoration: underline;
+}
