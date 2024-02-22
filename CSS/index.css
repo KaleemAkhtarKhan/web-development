@@ -29,3 +29,11 @@ p{
 nav ul li a{
   color: hotpink;  
 }
+p + h3{
+    text-decoration: wavy underline;
+    text color: #000;;
+}
+.b + button{
+    color: black;
+    background-color: brown;
+}
