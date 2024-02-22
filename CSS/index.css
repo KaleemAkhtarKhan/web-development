@@ -26,6 +26,6 @@ p{
 .b{
     background-color: green;
 }
-nav li{
-    color: greenyellow;
+nav ul li a{
+  color: hotpink;  
 }
