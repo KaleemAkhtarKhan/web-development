@@ -1,0 +1,31 @@
+*{
+    font-family: 'Courier New';
+    background-color: rgb(218, 221, 213);
+}
+h3{
+    color:brown
+}
+h1{
+    color: red;
+} 
+#login{
+    color: aquamarine;
+    background-color: black;
+}
+#signup{
+color:white;
+background-color: blue;
+}
+.follow{
+    color: blueviolet;
+    text-decoration: none;
+}
+p{
+    color: chartreuse;
+}
+.b{
+    background-color: green;
+}
+nav li{
+    color: greenyellow;
+}
