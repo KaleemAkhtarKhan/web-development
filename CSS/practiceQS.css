@@ -7,8 +7,9 @@ h1{
 #searchbtn{
     background-color: black;
     color: white;
-}
+}  
+/* login and user button  */
 .userbtn{
     background-color: aqua;
-   
+    color: black;
 }
