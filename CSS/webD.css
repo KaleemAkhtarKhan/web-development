@@ -1,0 +1,16 @@
+a{
+    color: rgb(70, 30, 248);
+    background-color: bisque;
+    text-decoration: none;
+}
+h1{
+    color: aqua;
+    
+}
+p{
+    color: rgb(3, 58, 40);
+    height: fit-content;
+}
+*{
+    background-color: antiquewhite;
+}
