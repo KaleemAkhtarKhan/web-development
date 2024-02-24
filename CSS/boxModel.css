@@ -7,8 +7,12 @@ div{
     border: 5px solid greenyellow;
     border-left-style : dashed;
     border-left-color: rgb(251, 255, 0);
+
 } 
 h1{
     border-color: brown;
     border-width: 2px;
 } 
+button{
+    border-radius: 50px;
+}
