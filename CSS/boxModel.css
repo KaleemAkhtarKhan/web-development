@@ -5,3 +5,7 @@ div{
     border-style: dashed;
     border-color: blue;
 } 
+h1{
+    border-color: brown;
+    border-width: 2px;
+}
