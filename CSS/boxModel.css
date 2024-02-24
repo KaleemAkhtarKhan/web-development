@@ -5,6 +5,8 @@ div{
     border-style: dashed;
     border-color: blue; */
     border: 5px solid greenyellow;
+    border-left-style : dashed;
+    border-left-color: blue;
 } 
 h1{
     border-color: brown;
