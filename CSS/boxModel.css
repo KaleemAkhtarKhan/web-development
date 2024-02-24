@@ -1,9 +1,10 @@
 div{
     height: 100px;
     width: 200;
-    border-width: 2px;
+    /* border-width: 2px;
     border-style: dashed;
-    border-color: blue;
+    border-color: blue; */
+    border: 5px solid greenyellow;
 } 
 h1{
     border-color: brown;
