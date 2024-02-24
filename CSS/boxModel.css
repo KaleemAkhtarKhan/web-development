@@ -1,4 +1,7 @@
 div{
     height: 100px;
     width: 200;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: blue;
 } 
