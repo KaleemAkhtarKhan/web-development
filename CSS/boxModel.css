@@ -6,7 +6,7 @@ div{
     border-color: blue; */
     border: 5px solid greenyellow;
     border-left-style : dashed;
-    border-left-color: blue;
+    border-left-color: rgb(251, 255, 0);
 } 
 h1{
     border-color: brown;
