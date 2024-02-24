@@ -1,9 +1,9 @@
 div{
     height: 80px;
     width: 200;
-    /* border-width: 2px;
+     border-width: 2px;
     border-style: dashed;
-    border-color: blue; */
+    border-color: blue; 
     border: 5px solid rgb(27, 28, 137);
     border-left-style : dashed;
     border-left-color: rgb(207, 209, 95);
