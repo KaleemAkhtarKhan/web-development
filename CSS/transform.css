@@ -1,0 +1,22 @@
+div{
+    border: 2px solid blueviolet;
+    width: 100px;
+    margin-top: 30px;
+    background-color: blue;
+}
+div:hover {
+    background-color: brown;
+    border-radius: 50%;
+    transition: 2s;
+}
+/* }
+#div1{
+    
+      transition: 1s;
+      background-color: blue;
+
+}
+div1:hover{
+    background-color: brown;
+    border-radius: 50%;
+} */
