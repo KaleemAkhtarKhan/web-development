@@ -1,3 +1,18 @@
-*{
+#mujra{
+    width: 200px;
+    height: 300px;
+    border:2px solid black ;
     display: inline-block;
+margin: 20px;
+border-radius: 10px;
+box-shadow: 2px 2px 10px blue;
+transition: 1s;
+
+    
+}
+img{
+  width: 100%;
+}
+#mujra:hover{
+    box-shadow:4px 4px 20px red ;
 }
