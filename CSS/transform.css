@@ -1,28 +1,16 @@
 div{
     border: 2px solid blueviolet;
-    width: 100px;
+    width: 300px;
+    height: 100px;
     margin-top: 30px;
     background-color: blue;
+    box-shadow: 2px 2px 5px red;
 }
-div:hover {
-    background-color: brown;
-    border-radius: 50%;
-    transition: 2s;
-}
-/* }
-#div1{
-    
-      transition: 1s;
-      background-color: blue;
-
-}
-div1:hover{
-    background-color: brown;
-    border-radius: 50%;
-} */
-#five{
-    transform: rotate(30deg);
-    transform: translate(50px, 10px);
-    transform: skew(50deg);
-
+button{
+    margin-top: 50px;
+    width: 70px;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px red;
+    background-color: aquamarine;
 }
