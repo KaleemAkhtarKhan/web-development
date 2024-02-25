@@ -11,5 +11,14 @@
     border: 2px solid black;
     margin: 10px;
     border-radius: 50px;
-    
+
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
 }
