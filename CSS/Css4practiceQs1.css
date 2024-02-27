@@ -20,7 +20,7 @@ It should have 'ease-in' speed curve & 0.5s delay */
     #box2 { 
     width: 100px; 
     height: 100px; 
-    background: rgb(137, 29, 29); 
+    background: rgb(82, 15, 15); 
     transform:translate(200px,200px) rotate(90deg);
     } 
     /* Qs3. Using transform, skew box3 20deg along the x axis.*/ 
