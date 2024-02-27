@@ -11,7 +11,7 @@ It should have 'ease-in' speed curve & 0.5s delay */
     width: 600px; 
     border-radius: 10px;
     transition: 2s ease-in;
-    transition-delay: 0.5s;
+    transition-delay: 1s;
     } 
 
     /* Qs2. Using transform, move box2 200px to the right & 
