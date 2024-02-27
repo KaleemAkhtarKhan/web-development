@@ -52,7 +52,7 @@ It should have 'ease-in' speed curve & 0.5s delay */
     #myPic { 
     width: 200px; 
     height: 200px; 
-    background: pink;
+    background: rgb(120, 54, 65);
     background-image: url(kalihiran.jpg);
     opacity: 50%;
      
