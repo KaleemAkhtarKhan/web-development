@@ -4,7 +4,7 @@ It should have 'ease-in' speed curve & 0.5s delay */
 #box1 { 
     width: 100px; 
     height: 100px; 
-    background: green; 
+    background: rgb(29, 174, 29); 
     } 
 
     #box1:hover { 
