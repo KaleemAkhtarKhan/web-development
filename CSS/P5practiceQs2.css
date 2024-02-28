@@ -2,4 +2,14 @@
     background-color: pink;
     height: 50px;
     width: 900px;
+    border: 2px solid rgb(35, 183, 193);
+    border-radius: 10px;
+    display: flex
+
+
+}
+.info{
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
 }
