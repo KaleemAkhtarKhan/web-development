@@ -6,6 +6,6 @@ button{
     background-color: #2323cc;
 }
 p{
-    color: white;
+    color: rgba(255, 255, 255, 0.87);
     background-color: black;
 }
