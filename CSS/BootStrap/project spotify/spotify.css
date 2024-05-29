@@ -1,15 +1,16 @@
 *{
   font-family: "Montserrat", sans-serif;
-  margin: 0;
-  background-color: black;
+   margin: 0; 
+  /* background-color: black;  */
   color: white;
-  overflow: hidden;
+   overflow: hidden; 
 }
-/* main body                 */
+/* main body */
 /* 1 rem = 16px */
 .main{
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
 
 /* sidebaar  */
@@ -24,7 +25,7 @@ a{
     color: #fff;
 }
 .nav{
-    background-color:black;
+    background-color: #121212;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -34,7 +35,6 @@ a{
 
 }
 .nav-option {
-    background-color: black;
     line-height: 2.5rem;
     opacity: 0.6;
     padding: 0.25rem 0.75rem;
@@ -53,18 +53,45 @@ a{
 
 
 .library{
-    background-color:black;
+    background-color: #121212;
     border-radius: 1rem;
     height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.75rem;
 }
 .options {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .lib-option img {
     height: 1.25rem;
     width: 1.25rem;
+}
+.icons {
+    font-size: 1.25rem;
+    display: flex;
+   
+}
+.icons i {
+    opacity: 0.7;
+    margin-right: 1rem;
+}
+.icons i :hover{
+    opacity: 1;
+}
+.icons{
+    font-size: 1.25rem;
+    opacity: 0.7;
+    
+}
+.icons i{
+    margin-right: 1rem;
+    display: flex;
+}
+.icons i:hover{
+    opacity: 1;
 }
    
 
