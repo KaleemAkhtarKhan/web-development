@@ -13,10 +13,12 @@
 </head>
 <body>
     <div class="main">
-        <div class="sidebar"> 
+        <!-- sidebar -->
+        <div class="sidebar">
+
             <div class="nav">
                 <div class="nav-option" style="opacity: 1;">
-                    <i class="fa-solid fa-house" ></i>
+                    <i class="fa-solid fa-house"></i>
                     <a href="#">Home</a>
                 </div>
                 <div class="nav-option">
@@ -24,137 +26,274 @@
                     <a href="#">Search</a>
                 </div>
             </div>
-            <div>
-                <div class="library">
-                    <div class="options nav-option">
-                        <div class="lib-option">
-                            <img src="library_icon.png">
-                            <a href="#">Your Library</a>
-                        </div>
-                        <div class="icons">
-                            <i class="fa-solid fa-plus"></i>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="Lib-options nav-option">
+                        <img src="./asserts/library_icon.png" alt="">
+                        <a href="#">Your library</a>
                     </div>
-                    <div class="boxes">
-                        <div class="box">
-                            <div class="box-p1">Create your first playlist</div>
-                            <div class="box-p2">It's easy, we'll help you</div>
-                            <button class="badge">Create platlist</button>
-                        </div>
-                        <div class="box">
-                            <div class="box-p1">Let's find some podcasts to follow</div>
-                            <div class="box-p2">We'll keep you updated on new episodes </div>
-                            <button class="badge">Browse podcasts </button>
-                        </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
                     </div>
                 </div>
+
+                <div class="Lib.box">
+                    <div class="box">
+                        <p class="box-p1">Create your first palylist</p>
+                        <p class="box-p2">it's easy, we'll help you</p>
+                        <button class="badge">Create palylist</button>
+                    </div>
+                    <div class="box1">
+                        <p class="box1-p1">Let's find some prodcast to follow</p>
+                        <p class="box1-p2">we'll keep you update on new episodes</p>
+                        <button class="badge1 badge">Browse prodcast</button>
+                    </div>
+                </div>
+
             </div>
         </div>
+
+        <!-- Nav-bar ans Main content -->
         <div class="main-content">
+
             <div class="sticky-nav">
-                <div class="sticky-nav-icons">
-                    <img src="backward_icon.png">
-                    <img src="forward_icon.png" class="hide">
+                <div class="sticky-icon">
+                    <img class="sticky-img" src="./asserts/backward_icon.png" alt="">
+                    <img class="sticky-img hide" src="./asserts/forward_icon.png" alt="" style="position: absolute; left: 44px;">
                 </div>
-               <div class="sticky-nav-options">
-                    <button class="badge nav-item">Explore Premium </button>
-                    <button class="badge nav-item  dark"> <i class="fa-sharp fa-solid fa-circle-arrow-down"></i> Install App </button>
-                    <i class="fa-solid fa-user nav-item"></i>
-               </div>
-                
+                <div class="sticky-login">
+                    <a href="#">Sign up</a>
+                    <button class="sticky-nav-badge">Log in</button>
+                </div>
             </div>
 
-                <h2>Recently Played </h2>
-                <div class="cards-container">
+            <div class="cards">
+                <h2>Recently played</h2>
+                <div class="card-container">
                     <div class="card">
-                        <img src="card1img.jpeg" class="photo">
-                        <p class="card-title">Top 50-Global</p>
-                        <p class="card-info"> Your daily updates of the most played tracks... </p>
+                        <img src="./asserts/card1img.jpeg" alt="" class="card-img">
+                        <p class="card-tital">Top-50 global</p>
+                        <p class="card-info">Your daily update of themost played tracks...</p>
                     </div>
                 </div>
 
-                <h2>Tranding now near you </h2>
-                <div class="cards-container">
+                <h2>Spotify original & exclusive shows</h2>
+                <div class="card-container">
                     <div class="card">
-                        <img src="card2img.jpeg" class="photo">
-                        <p class="card-title">Top 50-Global</p>
-                        <p class="card-info"> Your daily updates of the most played tracks... </p>
+                        <img src="./asserts/card2img.jpeg" alt="" class="card-img">
+                        <p class="card-tital">Mahiya Jinna sohna</p>
+                        <p class="card-info">Darshan Rawal</p>
                     </div>
                     <div class="card">
-                        <img src="card3img.jpeg" class="photo">
-                        <p class="card-title">Top 50-Global</p>
-                        <p class="card-info"> Your daily updates of the most played tracks... </p>
+                        <img src="./asserts/card3img.jpeg" alt="" class="card-img">
+                        <p class="card-tital">Mera Pass Tum H..</p>
+                        <p class="card-info">Slinet Ocean</p>
                     </div>
                     <div class="card">
-                        <img src="card4img.jpeg" class="photo">
-                        <p class="card-title">Top 50-Global</p>
-                        <p class="card-info"> Your daily updates of the most played tracks... </p>
+                        <img src="./asserts/card4img.jpeg" alt="" class="card-img">
+                        <p class="card-tital">Top-50 global</p>
+                        <p class="card-info">Aniruth Ravichander</p>
                     </div>
                     <div class="card">
-                        <img src="card5img.jpeg" class="photo">
-                        <p class="card-title">Top 50-Global</p>
-                        <p class="card-info"> Your daily updates of the most played tracks... </p>
-                    </div>
-                       <div class="card">
-                        <img src="card1img.jpeg" class="photo">
-                        <p class="card-title">Top 50-Global</p>
-                        <p class="card-info"> Your daily updates of the most played tracks... </p>
-                    </div>
-                    <div class="card">
-                        <img src="card6img.jpeg" class="photo">
-                        <p class="card-title">Top 50-Global</p>
-                        <p class="card-info"> Your daily updates of the most played tracks... </p>
-                    </div>
-                    <h2>Featured Charts</h2>
-                <div class="cards-container">
-                    <div class="card">
-                        <img src="card2img.jpeg" class="photo">
-                        <p class="card-title">Top 50-Global</p>
-                        <p class="card-info"> Your daily updates of the most played tracks... </p>
-                    </div>
-                    <div class="card">
-                        <img src="card3img.jpeg" class="photo">
-                        <p class="card-title">Top 50-Global</p>
-                        <p class="card-info"> Your daily updates of the most played tracks... </p>
-                    </div>
-                    <div class="card">
-                        <img src="card6img.jpeg" class="photo">
-                        <p class="card-title">Top 50-Global</p>
-                        <p class="card-info"> Your daily updates of the most played tracks... </p>
+                        <img src="./asserts/heeriya.jpg" alt="" class="card-img">
+                        <p class="card-tital">Heeriya</p>
+                        <p class="card-info">Jasleeen Royal,Arjit Singh,Dulquuer Salmaan</p>
                     </div>
                 </div>
-                  
-        </div>
-        <div class="footer">
-            <div class="line">
+
+                <h2>Chill</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./asserts/chill1.jpg" alt="" class="card-img">
+                        <p class="card-tital">Chill Hits</p>
+                        <p class="card-info">Kick back to the best new and recent chill hits</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./asserts/chill2.jpg" alt="" class="card-img">
+                        <p class="card-tital">Lofi beats</p>
+                        <p class="card-info">chill beats, lofi vibes, new tracks every week..</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asserts/chill3.jpg" alt="" class="card-img">
+                        <p class="card-tital">Peaceful piano</p>
+                        <p class="card-info">Peaceful piano to help you slow dwon,..</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asserts/chill4.jpg" alt="" class="card-img">
+                        <p class="card-tital">peaceful meditation</p>
+                        <p class="card-info">Breathe,Sense,feel,Transcend</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./asserts/card5img.jpeg" alt="" class="card-img">
+                        <p class="card-tital">Top Songs-global</p>
+                        <p class="card-info">Your daily update of themost played tracks...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./asserts/card6img.jpeg" alt="" class="card-img">
+                        <p class="card-tital">Top Song-india</p>
+                        <p class="card-info">Your daily update of themost played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asserts/card1img.jpeg" alt="" class="card-img">
+                        <p class="card-tital">Top 50-global</p>
+                        <p class="card-info">Your daily update of themost played tracks...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asserts/card7img.jpeg" alt="" class="card-img">
+                        <p class="card-tital">Viral 50</p>
+                        <p class="card-info">Your daily update of themost played tracks...</p>
+                    </div>
+                </div>
+
+                <h2>Fresh new music</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./asserts/music hindi.jpg" alt="" class="card-img">
+                        <p class="card-tital">New Music Hindi</p>
+                        <p class="card-info">New music from Arijit Singh, Neha Kakkar, King and...</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./asserts/nw in dance.jpg" alt="" class="card-img">
+                        <p class="card-tital">New in dance</p>
+                        <p class="card-info">Latest floor fillers to Kickstart your party. Cover...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asserts/ipop.jpg" alt="" class="card-img">
+                        <p class="card-tital">I-Pop Superhits</p>
+                        <p class="card-info">Biggest hits from your favourite pop srart. Covet..</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asserts/anime.jpg" alt="" class="card-img">
+                        <p class="card-tital">Anime Now</p>
+                        <p class="card-info">Hottest Anime tracks & best new sounds for all Anime...</p>
+                    </div>
+                </div>
+
+                <h2>Populer artists</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./asserts/ghosel.jpg" alt="" class="card-img"  style="width: 180px; height:180px ; border-radius: 50%; margin-bottom: 5px;">
+                        <p class="card-tital">Shreya Ghoshal</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="./asserts/anirudh.jpg" alt="" class="card-img" style="width: 180px; height:180px ; border-radius: 50%; margin-bottom: 5px;">
+                        <p class="card-tital">Anirudh Ravichander</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asserts/pritam.jpg" alt="" class="card-img" style="width: 180px; height:180px ; border-radius: 50%; margin-bottom: 5px;">
+                        <p class="card-tital">Pritam</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                    <div class="card">
+                        <img src="./asserts/arijit.jpg" alt="" class="card-img" style="width: 180px; height:180px ; border-radius: 50%; margin-bottom: 5px;">
+                        <p class="card-tital">Arijit Singh</p>
+                        <p class="card-info">Artist</p>
+                    </div>
+                </div>
 
             </div>
+            
+            <!-- futer -->
+            <div class="futer">
+
+                <div class="futer-upper">
+                    <div class="company">
+                        <ul type="none">
+                            <li class="list-header">Company</li>
+                            <li><a class="company-list" href="#">About</a></li>
+                            <li><a class="company-list" href="#">Jobs</a></li>
+                            <li><a class="company-list" href="#">For the Record</a></li>
+                        </ul>
+                    </div>
+                    <div class="company">
+                        <ul type="none">
+                            <li class="list-header">Communities</li>
+                            <li><a class="company-list" href="#">For Artist</a></li>
+                            <li><a class="company-list" href="#">Develpers</a></li>
+                            <li><a class="company-list" href="#">Advertising</a></li>
+                            <li><a class="company-list" href="#">Investors</a></li>
+                            <li><a class="company-list" href="#">Vendors</a></li>
+                        </ul>
+                    </div>
+                    <div class="company">
+                        <ul type="none">
+
+                            <li class="list-header">Useful links</li>
+                            <li><a class="company-list" href="#">Spport</a></li>
+                            <li><a class="company-list" href="#">Free Mobile App</a></li>
+                        </ul>
+                    </div>
+                    <div class="social">
+                        <div class="social-box">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="social-box">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="social-box">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="futar-buttom">
+                    <div class="futar-buttom1">
+                        <a href="#">Legal</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Privacy Center</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                    <div class="futar-buttom2">© 2023 Spotify AB</div>
+                </div>
+            </div>
         </div>
+
+        <!-- music-player -->
         <div class="music-player">
             <div class="album">
-                <div class="images"><img src="card4img.jpeg" class="images"></div
-                <span class="musicinfo">
-                    <p>Daylight</p>
-                    <p>David Kushner</p>
-                </span>
+                <img src="./asserts/afreen.jpg" alt="" class="music-img">
+                <div class="para">
+                    <p class="songname">Afreen Afreen</p>
+                    <p class="singername">Rahat Fateh Ali Khan
+                    </p>
+                </div>
+                <i class="fa-regular fa-heart"></i>
             </div>
             <div class="player">
                 <div class="player-controls">
-                    <img src="player_icon1.png" class="player-controls-icon">
-                    <img src="player_icon2.png"class="player-controls-icon">
-                    <img src="player_icon3.png"class="player-controls-icon" style="height: 2rem; opacity: 1;">
-                    <img src="player_icon4.png"class="player-controls-icon">
-                    <img src="player_icon5.png"class="player-controls-icon">
+                    <img src="./asserts/player_icon1.png" alt="" class="player-controls-icon">
+                    <img src="./asserts/player_icon2.png" alt="" class="player-controls-icon">
+                    <img src="./asserts/player_icon3.png" alt="" class="player-controls-icon bada" style="opacity: 1; height: 2rem;">
+                    <img src="./asserts/player_icon4.png" alt="" class="player-controls-icon">
+                    <img src="./asserts/player_icon5.png" alt="" class="player-controls-icon">
                 </div>
-                <div class="playback-bar">
-                    <span class="curr-time">00:00</span>
-                    <input type="range" min="0" max="100" class="progress-bar">
-                    <span class="tot-time">3:33</span>
+                <div class="playbak-bar">
+                    <span class="curr-time">5:58</span>
+                    <input type="range" class="progress-bar" step="1">
+                    <span class="total-time">9:34</span>
+                </div>
+            </div>
+            <div class="contorls">
+                <div class="cont">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <input type="range" class="valup">
                 </div>
             </div>
         </div>
     </div>
-    
 </body>
 </html>
